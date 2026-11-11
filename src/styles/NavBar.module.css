@@ -1,0 +1,30 @@
+.navBar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Commented out since there's no style to apply */
+/* .navBarLeft {
+} */
+
+.navBarRight {
+	button {
+		outline: none;
+		border: 1px solid var(--neutral-300);
+		margin: 0px 5px;
+		padding: 10px 18px;
+		border-radius: 25px;
+		font-size: 16px;
+
+		&:hover {
+			color: var(--neutral-600);
+		}
+
+        &:focus {
+            background-color: var(--red-700);
+            color: var(--neutral-0);
+        }
+	}
+}

@@ -1,0 +1,8 @@
+.extensionsListContainer {
+	display: grid;
+	justify-content: space-evenly;
+	grid-template-columns: repeat(3, 1fr);
+	list-style-type: none;
+	margin: 3px -50px;
+	padding: 5px 40px;
+}
