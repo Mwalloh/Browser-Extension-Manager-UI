@@ -10,6 +10,7 @@
 	margin: 5px 0px 70px 0px;
 }
 
+
 /* Commented out since there's no style to apply */
 /* .headerLeft {
 } */
@@ -24,6 +25,41 @@
 		text-align: center;
 		width: 50px;
 		height: 50px;
+
+		&:hover {
+			background-color: var(--neutral-300);
+		}
+	}
+}
+
+/* DARK THEME */
+.darkHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid var(--neutral-700);
+	border-radius: 15px;
+	background-color: var(--neutral-700);
+	padding: 5px 8px;
+	/* box-shadow: 3px 3px 2px 1px var(--neutral-300); */
+	margin: 5px 0px 70px 0px;
+}
+
+
+/* .darkHeaderLeft {
+	background-color: var(--neutral-600);
+} */
+
+.darkHeaderRight {
+	button {
+		outline: none;
+		border: 1px solid transparent;
+		border-radius: 10px;
+		background-color: var(--neutral-600);
+		padding: 10px;
+		text-align: center;
+		width: 50px;
+		height: 47px;
 
 		&:hover {
 			background-color: var(--neutral-300);

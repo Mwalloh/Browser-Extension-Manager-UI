@@ -18,19 +18,27 @@
 	--light-gradient: linear-gradient(180deg, #ebf2fc 0%, #eef8f9 100%);
 	--dark-gradient: linear-gradient(180deg, #040918 0%, #091540 100%);
 
-  box-sizing: border-box;
+	box-sizing: border-box;
 	font-family: "Noto Sans", sans-serif;
 	width: 1440px;
 	margin: 20px auto;
-	background-color: var(--neutral-200);
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 
 	button {
 		cursor: pointer;
-    text-align: center;
+		text-align: center;
 
 		&:focus {
 			border: 3px solid var(--red-400);
 		}
 	}
+}
+
+[data-theme="light"] {
+	background-color: var(--neutral-200);
+}
+
+[data-theme = 'dark'] {
+	background-color: var(--neutral-900);
+	color: var(--neutral-100);
 }
