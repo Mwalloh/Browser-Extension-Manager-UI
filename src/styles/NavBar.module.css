@@ -61,3 +61,27 @@
 	background-color: var(--red-500);
 	color: black;
 }
+
+/* MEDIA QUERIES */
+
+/* Mobile Screens */
+@media (max-width: 480px) {
+	.navBar {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-size: 15px;
+		text-align: center;
+	}
+}
+
+/* Tablet Screens */
+@media (max-width: 768px){
+	.navBar {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 15px;
+	}
+}

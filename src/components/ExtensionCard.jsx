@@ -37,6 +37,7 @@ function ExtensionsCard({
 					<input
 						type="checkbox"
 						checked
+						readOnly
 						className={
 							isActive
 								? theme === "light"

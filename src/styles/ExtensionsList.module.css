@@ -1,8 +1,22 @@
 .extensionsListContainer {
 	display: grid;
 	justify-content: space-evenly;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	list-style-type: none;
 	margin: 3px -50px;
 	padding: 5px 40px;
+}
+
+/* MEDIA QUERIES */
+
+/* Mobile screens */
+@media (max-width: 480px) {
+	.extensionsListContainer {
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		list-style-type: none;
+		padding: 5px 40px;
+	}
 }
