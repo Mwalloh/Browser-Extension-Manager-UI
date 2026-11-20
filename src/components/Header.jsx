@@ -8,7 +8,7 @@ function Header({ theme, setTheme }) {
 					theme === "light" ? styles.headerLeft : styles.darkHeaderLeft
 				}
 			>
-				<img src="src/assets/images/logo.svg" alt="Logo" />
+				<img src="/images/logo.svg" alt="Logo" />
 			</div>
 
 			<div
@@ -18,11 +18,11 @@ function Header({ theme, setTheme }) {
 			>
 				{theme === "light" ? (
 					<button onClick={() => setTheme("dark")}>
-						<img src="src/assets/images/icon-moon.svg" alt="Dark Mode Image" />
+						<img src="/images/icon-moon.svg" alt="Dark Mode Image" />
 					</button>
 				) : (
 					<button onClick={() => setTheme("light")}>
-						<img src="src/assets/images/icon-sun.svg" alt="Light Mode Image" />
+						<img src="/images/icon-sun.svg" alt="Light Mode Image" />
 					</button>
 				)}
 			</div>
