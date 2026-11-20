@@ -18,11 +18,11 @@ function Header({ theme, setTheme }) {
 			>
 				{theme === "light" ? (
 					<button onClick={() => setTheme("dark")}>
-						<img src="/images/icon-moon.svg" alt="Dark Mode Image" />
+						<img src="images/icon-moon.svg" alt="Dark Mode Image" />
 					</button>
 				) : (
 					<button onClick={() => setTheme("light")}>
-						<img src="/images/icon-sun.svg" alt="Light Mode Image" />
+						<img src="images/icon-sun.svg" alt="Light Mode Image" />
 					</button>
 				)}
 			</div>
