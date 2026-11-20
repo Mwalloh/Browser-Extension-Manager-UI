@@ -13,6 +13,7 @@ dist-ssr
 *.local
 
 # Custom dir
+assets/
 design/
 fonts/
 preview.jpg
