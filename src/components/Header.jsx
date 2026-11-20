@@ -8,7 +8,7 @@ function Header({ theme, setTheme }) {
 					theme === "light" ? styles.headerLeft : styles.darkHeaderLeft
 				}
 			>
-				<img src="/images/logo.svg" alt="Logo" />
+				<img src="images/logo.svg" alt="Logo" />
 			</div>
 
 			<div
