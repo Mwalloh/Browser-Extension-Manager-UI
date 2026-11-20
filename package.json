@@ -1,6 +1,6 @@
 {
-	"name": "browser-extension-manager-ui",
 	"homepage": "https://Mwalloh.github.io/Browser-Extension-Manager-UI",
+	"name": "browser-extension-manager-ui",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
