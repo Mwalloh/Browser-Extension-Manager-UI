@@ -13,11 +13,13 @@ dist-ssr
 *.local
 
 # Custom dir
-assets/
+design/
+fonts/
+images/
+preview.jpg
 data.json
 style-guide.md
 README-template.md
-README.md
 
 # Editor directories and files
 .vscode/*
