@@ -15,7 +15,6 @@ dist-ssr
 # Custom dir
 design/
 fonts/
-images/
 preview.jpg
 data.json
 style-guide.md
